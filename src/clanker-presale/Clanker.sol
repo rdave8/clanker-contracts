@@ -5,9 +5,9 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {TickMath} from "@uniswap/v3-core/contracts/libraries/TickMath.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-import {INonfungiblePositionManager, IUniswapV3Factory, ILockerFactory, ILocker, ExactInputSingleParams, ISwapRouter} from "./interface.sol";
+import {INonfungiblePositionManager, IUniswapV3Factory, ILockerFactory, ILocker, ExactInputSingleParams, ISwapRouter} from "../common/interface.sol";
 import {ClankerToken} from "./ClankerToken.sol";
-import {LpLockerv2} from "./LpLockerv2.sol";
+import {LpLockerv2} from "../common/LpLockerv2.sol";
 
 contract Clanker is Ownable {
     using TickMath for int24;

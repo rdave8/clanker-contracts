@@ -1,0 +1,14 @@
+{
+  "lib/v3-periphery": {
+    "rev": "80f26c86c57b8a5e4b913f42844d4c8bd274d058"
+  },
+  "lib/forge-std": {
+    "rev": "b93cf4bc34ff214c099dc970b153f85ade8c9f66"
+  },
+  "lib/openzeppelin-contracts": {
+    "rev": "01ef448981be9d20ca85f2faf6ebdf591ce409f3"
+  },
+  "lib/v3-core": {
+    "rev": "e3589b192d0be27e100cd0daaf6c97204fdb1899"
+  }
+}
